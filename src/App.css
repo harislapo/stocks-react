@@ -1,0 +1,9 @@
+.delete-button {
+  visibility: hidden;
+  display: inline-block;
+  margin-left: 20;
+}
+
+.table-row:hover .delete-button {
+  visibility: visible;
+}
